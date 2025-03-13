@@ -57,7 +57,7 @@ export default function Home() {
       <header className="px-4 lg:px-6 h-16 flex items-center justify-between border-b">
         <Link className="flex items-center gap-2 font-semibold" href="#">
           <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 text-transparent bg-clip-text">
-            StreamSub
+            SubX
           </span>
         </Link>
         <nav className="flex gap-4 sm:gap-6">
@@ -82,12 +82,14 @@ export default function Home() {
         </nav>
         <div className="flex items-center gap-4">
           <Link href="/login">
-            <Button variant="ghost" size="sm">
+            <Button variant="ghost" size="sm" className="cursor-pointer">
               Log In
             </Button>
           </Link>
           <Link href="/signup">
-            <Button size="sm">Sign Up</Button>
+            <Button size="sm" className="cursor-pointer">
+              Sign Up
+            </Button>
           </Link>
         </div>
       </header>
@@ -100,8 +102,7 @@ export default function Home() {
                   Stream Your Favorite Content Anytime
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Unlimited access to movies, TV shows, music, and more. Cancel
-                  anytime.
+                  Economical Solution for Quality Subscription Services.
                 </p>
               </div>
               <div className="space-x-4">
